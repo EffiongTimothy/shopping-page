@@ -1,0 +1,71 @@
+
+.maincontainer nav {
+    height: 5%;
+    width: 90%;
+    display: flex;
+    padding: 7% 5%;
+    justify-content: space-evenly;
+    background-color: #6a6ad3;
+    padding-bottom: 0%;
+}
+.maincontainer nav li{
+  list-style: none;
+  transition: 5s;  
+}
+.maincontainer nav li::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    transition: transform .5s;
+    transform: scaleX(0);
+    transform-origin: right ;
+}
+.maincontainer nav li:hover{
+    color: black;
+}
+.maincontainer nav li:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.maincontainer nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.maincontainer .row1{
+    margin: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.maincontainer .row1 .innerRow1{
+    text-align: center;
+}
+.maincontainer .row1 .innerRow2{
+    text-align: center;
+}
+.maincontainer .row2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1%;
+
+}
+.maincontainer .row2 .innerRow1{
+    text-align: center;
+}
+.maincontainer .row2 .innerRow2{
+    text-align: center;
+}
+
+.maincontainer button{
+    padding: 1% 5%;
+    align-items: center;
+    margin-left: 38%;
+    border-radius: 7px;
+    background-color: #8c4545;
+    color: white;
+    margin-bottom: 2%;
+}

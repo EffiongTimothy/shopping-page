@@ -1,0 +1,36 @@
+.maincontainer h1{
+    height: 5%;
+    width: 90%;
+    display: flex;
+    padding: 7% 5%;
+    justify-content: space-evenly;
+    background-color: #6a6ad3;
+    padding-bottom: 0%;
+}
+.maincontainer .firstbox{
+    border: 6px solid;
+    padding-left: 5%;
+    margin-right: 55%;
+    display: flex;
+    margin-left: 5%;  
+}
+.inner1{
+    display: flex;
+    margin: 4%;
+}
+.backImage{
+        background-image: url('SecondLandingPage/Gobackicon.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 3%/* set width of button */;
+        height: 3%/* set height of button */;
+        border: none; /* remove default button border */
+        cursor: pointer; /* change cursor to pointer when hovering over button */
+      
+      
+    }
+    .firstbox .text{
+        position: absolute;
+        margin: 15%;
+        top:3%;
+    }
